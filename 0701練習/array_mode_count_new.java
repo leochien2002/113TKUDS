@@ -31,4 +31,3 @@ public class array_mode_count_new {
         System.out.println("眾數為：" + mode + "，出現 " + maxCount + " 次");
     }
 }
-}
