@@ -1,0 +1,15 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class FactorialExample {
+   public FactorialExample() {
+   }
+
+   public static int factorial(int var0) {
+      return var0 <= 1 ? 1 : var0 * factorial(var0 - 1);
+   }
+
+   public static void main(String[] var0) {
+      System.out.println("3! = " + factorial(3));
+      System.out.println("5! = " + factorial(5));
+      System.out.println("0! = " + factorial(0));
+   }
+}
